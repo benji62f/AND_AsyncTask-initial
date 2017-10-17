@@ -83,7 +83,6 @@ public class MathFunction {
                 e.printStackTrace();
             }
 
-            Toast.makeText(activity.getApplicationContext(), "Calculation done", Toast.LENGTH_LONG).show();
             return Math.random()*100+1; // returns calculation result
         }
 
